@@ -8,9 +8,11 @@ ADMINS = (
 )
 
 MANAGERS = ADMINS
+import dj_database_url
 
 from unipath import Path
 PROJECT_DIR = Path(__file__).parent
+
 
 DATABASES = {
     'default': dj_database_url.config(

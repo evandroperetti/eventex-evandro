@@ -48,7 +48,7 @@ class SubscribePostTest(TestCase):
         
 class SubscribeInvalidPostTest(TestCase):
     def setUp(self):
-        data = dict(name='Evandro Peretti', cpf='00000000012',
+        data = dict(name='Evandro Peretti', cpf='000000000012',
                     email='evandroperetti@gmail.com', phone='54-99173705')
         self.resp = self.client.post('/inscricao/', data)
         

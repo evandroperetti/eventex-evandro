@@ -3,15 +3,15 @@ CSS
 */
  
 html {
-  background-color: #E8DDCB;
+  background-color: #c9c9c9;
 }
  
 body {
   margin: 0;
   padding: 0;
   font: .625em Georgia, Serif;
-  background-color: #E8DDCB;
-  color: #363636;
+  background-color: #ffffff;
+  color: #482521;
 }
  
 #page {
@@ -28,7 +28,7 @@ General
 p {
 	margin: 1.4em 0;
 	padding: 0;
-	line-height: 1.4em;
+	line-height: 1.0em;
 }
  
 img {
@@ -43,13 +43,13 @@ a,
 a:link,
 a:active,
 a:visited {
-	color: #033649;
+	color: #c06200;
 	text-decoration: none;
-	border-bottom: 1px dotted #033649;
+	border-bottom: 1px dotted #482521;
 }
  
 a:hover {
-	border-bottom: 1px solid #033649;
+	border-bottom: 1px solid #482521;
 }
  
 blockquote {
@@ -84,16 +84,16 @@ h4 {
  
 h1 {
 	font-weight: normal;
-	font-size: 2.2em;
-	text-align: center;
-	color: #031634;
+	font-size: 1.5em;
+	text-align: left;
+	color: #470700;
 }
  
 h2 {
 	margin: .643em 0;
 	font-weight: normal;
 	font-size: 1.8em;
-	color: #033649;
+	color: #470700;
 	font-style: italic;
 	clear: both;
 }
@@ -101,8 +101,8 @@ h2 {
 h3 {
 	margin: .643em 0;
 	font-weight: normal;
-	font-size: 1.6em;
-	color: #036564;
+	font-size: 1.2em;
+	color: #470700;
 }
  
 h4 {
@@ -155,9 +155,10 @@ Content
 */
  
 #content {
-  margin: 0 20px;
+  margin: 0 70px;
   font-size: 1.4em;
   text-shadow: 1px 1px 0 #fff;
+  text-align: left;
 }
  
 ul#acts li {
@@ -275,6 +276,7 @@ Footer
   font-size: .9em;
   padding: 0 20px;
   border-top: 1px dotted #CDB380;
+  text-align: center;
 }
  
 #footer img {

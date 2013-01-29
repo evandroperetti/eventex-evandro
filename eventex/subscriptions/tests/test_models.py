@@ -34,11 +34,11 @@ class SubscriptionUniqueTest(TestCase):
     def test_cpf_unique(self):
         'CPF must be unique'
         s = Subscription(name='Evandro Peretti', cpf='12345678901',
-                         email='evandroperetti@gmail.com', phone='54-99173705')
+                        email='evandroperetti@gmail.com', phone='54-99173705')
         self.assertRaises(IntegrityError, s.save)
         
     def test_email_unique(self):
         'Email must be unique'
         s = Subscription(name='Evandro Peretti', cpf='12345678901',
-                         email='evandroperetti@gmail.com', phone='54-99173705')
+                        email='evandroperetti@gmail.com', phone='54-99173705')
         self.assertRaises(IntegrityError, s.save)

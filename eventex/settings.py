@@ -1,4 +1,4 @@
-# Django settings for eventex project.
+﻿# Django settings for eventex project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG

@@ -5,7 +5,7 @@ from eventex.subscriptions.models import Subscription
 class SuccessTest(TestCase):
     def setUp(self):
         s = Subscription.objects.create(name='Evandro Peretti', cpf='12345678901',
-                                        email='evandroperetti@gmail.com', phone='5499173705')
+                                        email='evandroperetti@gmail.com', phone='54-99173705')
         self.resp = self.client.get('/inscricao/%d/' % s.pk)
         
     def test_get(self):
